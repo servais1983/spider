@@ -1,0 +1,5 @@
+httpx==0.24.0
+beautifulsoup4==4.12.2
+fp.free-proxies==2.1.1
+PyYAML==6.0.1
+python-playwright==1.36.0
