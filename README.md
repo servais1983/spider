@@ -7,10 +7,20 @@ Outil CLI modulaire pour pentesters et chasseurs de bug bounty.
 
 ## ⚙️ Installation
 
+### Méthode 1: Installation rapide (recommandée)
+
 ```bash
+# Cloner le dépôt
+git clone https://github.com/servais1983/spider.git
+
+# Accéder au répertoire du projet
+cd spider
+
+# Rendre le script d'installation exécutable
 chmod +x install.sh
+
+# Lancer l'installation
 ./install.sh
-```
 
 ## 🔍 Fonctionnalités
 
