@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/3a1e3593-c539-474d-9951-3ffaa9f2e8b9)
+
+
 # 🕷️ Spider – Bug Bounty Toolkit
 
 Outil CLI modulaire pour pentesters et chasseurs de bug bounty.
